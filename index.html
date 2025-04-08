@@ -1,0 +1,157 @@
+
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fly Sky Agency</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f3f3;
+        }
+        header {
+            background-color: #49a9a2;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            font-size: 36px;
+            font-family: 'Pacifico', sans-serif;
+        }
+        nav {
+            background-color: #ffffff;
+            display: flex;
+            justify-content: center;
+            padding: 1rem;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+            font-size: 18px;
+        }
+        .content {
+            padding: 2rem;
+        }
+        .destination {
+            text-align: center;
+            margin: 20px;
+        }
+        .destination img {
+            width: 80%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .destination button {
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #49a9a2;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+        .profile-section {
+            display: flex;
+            justify-content: center;
+            margin-top: 40px;
+        }
+        .profile {
+            text-align: center;
+            margin: 20px;
+        }
+        .profile img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+        }
+        .cta {
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+        }
+        .cta a {
+            margin: 0 15px;
+            padding: 10px 20px;
+            background-color: #49a9a2;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    Fly Sky Agency
+</header>
+
+<nav>
+    <a href="#home">דף הבית</a>
+    <a href="#about">אודות</a>
+    <a href="#destinations">יעדים חמים</a>
+    <a href="#testimonials">המלצות</a>
+    <a href="#contact">צור קשר</a>
+</nav>
+
+<div class="content" id="home">
+    <h1>ברוכים הבאים</h1>
+    <p>אני גילי, סוכנת נסיעות שמייעצת לכם על כל יעד בתיירות בצורה הייחודית ביותר!</p>
+    <button onclick="window.location.href='#contact'">צור קשר עכשיו</button>
+</div>
+
+<div class="content" id="about">
+    <h1>אודות</h1>
+    <p>אני כאן כדי להפוך את חווית הנסיעה שלכם ליותר ממה שתיארתם, כוונה ובלתי נשכחת. אם אתם מחפשים חופשה מושלמת, אני כאן כדי לעזור!</p>
+</div>
+
+<div class="content" id="destinations">
+    <h1>יעדים חמים</h1>
+    <div class="destination">
+        <img src="GreeceDestination.jpg" alt="Greek Destination">
+        <button onclick="window.location.href='https://wa.me/?text=היי, אני רוצה לסגור דיל ליוון'">יוון</button>
+    </div>
+    <div class="destination">
+        <img src="ThailandDestination.jpg" alt="Thailand Destination">
+        <button onclick="window.location.href='https://wa.me/?text=היי, אני רוצה לסגור דיל לתאילנד'">תאילנד</button>
+    </div>
+    <div class="destination">
+        <img src="AbuDhabiDestination.jpg" alt="Abu Dhabi Destination">
+        <button onclick="window.location.href='https://wa.me/?text=היי, אני רוצה לסגור דיל לאבו דאבי'">אבו דאבי</button>
+    </div>
+</div>
+
+<div class="content" id="testimonials">
+    <h1>המלצות</h1>
+    <div class="profile-section">
+        <div class="profile">
+            <img src="DanielProfile.jpg" alt="Daniel">
+            <h3>דניאל</h3>
+            <p>חוויה מדהימה! עדי הצליחה להציע לנו שירות אישי ומחיר הוגן, מומלץ בחום!</p>
+            <span>⭐⭐⭐⭐⭐</span>
+        </div>
+        <div class="profile">
+            <img src="NoaProfile.jpg" alt="Noa">
+            <h3>נועה</h3>
+            <p>שירות מקצועי ומעימה! סבלנות רבה, ממליץ בחום על כל הליווי!</p>
+            <span>⭐⭐⭐⭐⭐</span>
+        </div>
+    </div>
+</div>
+
+<div class="content" id="contact">
+    <h1>צור קשר</h1>
+    <p>לקבלת פרטים נוספים או לתיאום פגישה, אנא צרו קשר בטלפון או במייל.</p>
+    <div class="cta">
+        <a href="https://wa.me/?text=אני מעוניין לקבל מידע נוסף על דילים" target="_blank">שלח הודעה בוואטסאפ</a>
+        <a href="mailto:example@example.com">שלח מייל</a>
+    </div>
+</div>
+
+<footer>
+    <p>Fly Sky Agency | נבנה על ידי Z Marketing</p>
+</footer>
+
+</body>
+</html>
